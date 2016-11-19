@@ -1,0 +1,22 @@
+input{
+	border: none;
+	border-bottom: 1px solid $accent-color;
+	@extend .shadows;
+}
+
+input:focus{
+	border: none;
+	border-bottom: 3px solid $accent-color;
+    outline: none;
+}
+
+textarea{
+	border: 1px solid $accent-color;
+	width: 100%;
+	min-height: 80px;
+	@extend .shadows;
+}
+
+textarea:focus{
+	border: 3px solid $accent-color;
+}

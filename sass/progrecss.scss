@@ -8,6 +8,8 @@
 @import "partials/_navbar.scss";
 @import "partials/_cards.scss";
 @import "partials/_buttons.scss";
+@import "partials/_forms.scss";
+
 html, body{
   height: 100%;
   width: 100%;
@@ -44,4 +46,14 @@ html, body{
 
 .menu{
   position: fixed;
+}
+
+.code{
+  min-width: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+.code:focus{
+  overflow: scroll;
 }
