@@ -1,0 +1,12 @@
+@import "normalize";
+@import "partials/_fonts.scss";
+@import "partials/_colors.scss";
+@import "partials/_containers.scss";
+@import "partials/_grid.scss";
+@import "partials/_navbar.scss";
+@import "partials/_header.scss";
+@import "partials/_buttons.scss";
+html, body{
+  height: 100%;
+  width: 100%;
+}

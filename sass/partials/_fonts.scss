@@ -1,0 +1,60 @@
+/*font*/
+*{
+  font-family: sans-serif;
+}
+/*dark text on light backgrounds*/
+$dark-text: #000000;
+.text-dark-primary {
+  opacity: .87;
+  -ms-filter: “alpha(opacity=87)”;
+  filter: alpha(opacity=87);
+  -khtml-opacity: .87;
+  -moz-opacity: .87;
+}
+.text-dark-secondary {
+  opacity: .54;
+  -ms-filter: “alpha(opacity=54)”;
+  filter: alpha(opacity=54);
+  -khtml-opacity: .54;
+  -moz-opacity: .54;
+}
+.text-dark-disable {
+  opacity: .38;
+  -ms-filter: “alpha(opacity=38)”;
+  filter: alpha(opacity=38);
+  -khtml-opacity: .38;
+  -moz-opacity: .38;
+}
+.text-dark-divide {
+  opacity: .12;
+  -ms-filter: “alpha(opacity=12)”;
+  filter: alpha(opacity=12);
+  -khtml-opacity: .12;
+  -moz-opacity: .12;
+}
+/*White text on dark backgrounds*/
+$light-text: #fff;
+.text-light-primary {
+  opacity: 1;
+}
+.text-light-secondary {
+  opacity: .70;
+  -ms-filter: “alpha(opacity=70)”;
+  filter: alpha(opacity=70);
+  -khtml-opacity: .70;
+  -moz-opacity: .70;
+}
+.text-light-disable {
+  opacity: .50;
+  -ms-filter: “alpha(opacity=50)”;
+  filter: alpha(opacity=50); 
+  -khtml-opacity: .50;
+  -moz-opacity: .50;
+}
+.text-dark-divide {
+  opacity: .12;
+  -ms-filter: “alpha(opacity=12)”;
+  filter: alpha(opacity=12);
+  -khtml-opacity: .12;
+  -moz-opacity: .12;
+}
