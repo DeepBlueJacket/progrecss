@@ -1,14 +1,19 @@
 @import "normalize";
 @import "partials/color-palette/_blue-grey.scss";
 @import "partials/_fonts.scss";
-@import "partials/_colors.scss";
 @import "partials/_containers.scss";
 @import "partials/_grid.scss";
 @import "partials/_navbar.scss";
-@import "partials/_header.scss";
 @import "partials/_buttons.scss";
+
+/*SITE EXAMPLE*/
+$accent-color: #2196F3; //from _blue.scss
 
 html, body{
   height: 100%;
   width: 100%;
+}
+
+navbar{
+
 }
