@@ -1,16 +1,26 @@
 /*navbars*/
 .navbar{
+margin: 0;
+padding: 0;
+ background-color: #fff;
+ height: 100%;
+ position: absolute;
  list-style:unset;
  width: auto;
+ color: $dark-text;
 }
 .navbar-link{
   font-size: 1em;
   padding-left: 20px; padding-right: 20px;
+  color: $dark-text;
+  @extend .text-dark-secondary;
 }
 .navbar-brand{
-  padding-top: 15px;
+  padding: 20px;
   text-align: center;
   font-size: 1.5em;
+  color: $dark-text;
+  @extend .text-dark-primary;
 }
 .navbar-list, .navbar-brand{
   display:block;

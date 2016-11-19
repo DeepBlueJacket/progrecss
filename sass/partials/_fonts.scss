@@ -1,7 +1,9 @@
 /*font*/
-*{
-  font-family: sans-serif;
-}
+html *{
+  font-family: Sans-Serif;}
+/*sizes*/
+h2{font-size: 1.6em;}
+h3{font-size: 1.3em;}
 /*dark text on light backgrounds*/
 $dark-text: #000000;
 .text-dark-primary {
@@ -47,7 +49,7 @@ $light-text: #fff;
 .text-light-disable {
   opacity: .50;
   -ms-filter: “alpha(opacity=50)”;
-  filter: alpha(opacity=50); 
+  filter: alpha(opacity=50);
   -khtml-opacity: .50;
   -moz-opacity: .50;
 }

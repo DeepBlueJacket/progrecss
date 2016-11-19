@@ -1,4 +1,5 @@
-@import "normalize";
+@import "compass/reset";
+@import "partials/_normalize.scss";
 @import "partials/color-palette/_blue-grey.scss";
 @import "partials/_fonts.scss";
 @import "partials/_containers.scss";
@@ -14,6 +15,16 @@ html, body{
   width: 100%;
 }
 
-navbar{
 
+.header-wrapper{
+  background-color: $color-main;
+  height: 500px; //fallback
+  height: 100vh;
+  text-align: center;
+  color: $light-text;
+}
+
+.header-text{
+  padding-top: 210px;//fallback
+  padding-top: 40vh;
 }
