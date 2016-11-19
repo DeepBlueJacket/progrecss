@@ -4,12 +4,10 @@
  width: 100%;
 }
 .navbar-link{
-  color:$color-contrast;
   font-size: 1em;
   padding-left: 20px; padding-right: 20px;
 }
 .navbar-brand{
-  background-color: $color-secondary;
   padding-top: 15px;
   text-align: center;
   font-size: 1.5em;
@@ -18,7 +16,6 @@
   display:block;
 }
 .navbar-list{
-  background-color: $color-primary;
   li {display: inline-block;  padding-top: 10px;
     padding-bottom: 10px;}
   li ul {display: none;}
