@@ -47,18 +47,28 @@
 }
 .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10{
   border-box: box-sizing;
-  padding: 5px;
+  margin: 5px;
   display: inline-block;
   vertical-align: top;
 }
 /*comtainer*/
 .container{
-  max-width: 800px;
+  width: 80%;
 }
 .container-fluid{
   width: 100%;
 }
-.container, .container-fluid{padding-left: 10px; padding-right: 10px; margin: auto;}
+  /*box-sizing*/
+  .container, .container-fluid{
+    box-sizing: border-box;
+  }
+  /*padding*/
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+  }
+
 /*movil*/
 .adaptative{
 

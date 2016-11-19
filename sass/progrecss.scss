@@ -5,11 +5,8 @@
 @import "partials/_containers.scss";
 @import "partials/_grid.scss";
 @import "partials/_navbar.scss";
+@import "partials/_cards.scss";
 @import "partials/_buttons.scss";
-
-/*SITE EXAMPLE*/
-$accent-color: #2196F3; //from _blue.scss
-
 html, body{
   height: 100%;
   width: 100%;
@@ -21,10 +18,30 @@ html, body{
   height: 500px; //fallback
   height: 100vh;
   text-align: center;
-  color: $light-text;
 }
 
 .header-text{
   padding-top: 210px;//fallback
   padding-top: 40vh;
+  *{  color: $light-text !important;}
+}
+
+.wrapper{
+  width: 100%;
+	padding-top: 40px;
+}
+
+.hr{
+
+	color: $dark-text;
+	@extend .text-dark-divide;
+}
+
+#grid .row div{
+  background-color: $color-1;
+}
+
+.menu{
+  position: absolute;
+  display: fixed;
 }

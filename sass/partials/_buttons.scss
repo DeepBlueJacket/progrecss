@@ -1,14 +1,27 @@
 /*buttons*/
 .button{
+  margin: 10px;
   padding: 10px;
 }
   /*button default*/
   .button-default{
-    border: 1px solid $color-main;
-    color: $color-main;
+    background-color: $color-1;
+    span{  
+      @extend .text-dark-secondary;
+    }
+  }
+  .button-accent{
+    background-color: $accent-color;
+    span{  
+      color: $light-text;
+      @extend .text-dark-primary;
+    }
   }
   /*button primary*/
- .button-primary{
-   border: 1px solid $color-main;
-   color: $color-main;
+ .button-color{
+   background-color: $color-main;
+  span{  
+      color: $light-text;
+      @extend .text-dark-primary;
+    }
  }

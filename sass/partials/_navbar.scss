@@ -30,3 +30,11 @@ padding: 0;
     padding-bottom: 10px;}
   li ul {display: none;}
 }
+
+.line {
+    width: 35px;
+    height: 2px;
+    background-color: $light-text;
+    margin: 6px 0;
+    @extend .text-light-primary;
+}

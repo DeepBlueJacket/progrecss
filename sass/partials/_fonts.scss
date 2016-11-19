@@ -1,11 +1,15 @@
+/*colors*/
+$dark-text: #000000;
+$light-text: #fff;
 /*font*/
 html *{
-  font-family: Sans-Serif;}
+  font-family: Sans-Serif;
+  color: $dark-text;
+}
 /*sizes*/
 h2{font-size: 1.6em;}
 h3{font-size: 1.3em;}
 /*dark text on light backgrounds*/
-$dark-text: #000000;
 .text-dark-primary {
   opacity: .87;
   -ms-filter: “alpha(opacity=87)”;
@@ -35,7 +39,6 @@ $dark-text: #000000;
   -moz-opacity: .12;
 }
 /*White text on dark backgrounds*/
-$light-text: #fff;
 .text-light-primary {
   opacity: 1;
 }
@@ -59,4 +62,11 @@ $light-text: #fff;
   filter: alpha(opacity=12);
   -khtml-opacity: .12;
   -moz-opacity: .12;
+}
+/*color*/
+h1,h2,h3,h4,h5,h6{
+  @extend .text-dark-primary;
+}
+p,span{
+  @extend .text-dark-secondary;
 }
