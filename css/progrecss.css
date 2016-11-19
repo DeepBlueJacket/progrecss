@@ -619,19 +619,20 @@ h3 {
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10 {
   border-box: box-sizing;
   padding: 5px;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top; }
 
 /*comtainer*/
-/* line 54, ../sass/partials/_grid.scss */
+/* line 55, ../sass/partials/_grid.scss */
 .container {
   max-width: 800px; }
 
-/* line 57, ../sass/partials/_grid.scss */
+/* line 58, ../sass/partials/_grid.scss */
 .container-fluid {
   width: 100%; }
 
-/* line 60, ../sass/partials/_grid.scss */
-.container, .container-fluid, .row {
+/* line 61, ../sass/partials/_grid.scss */
+.container, .container-fluid {
   padding-left: 10px;
   padding-right: 10px;
   margin: auto; }
