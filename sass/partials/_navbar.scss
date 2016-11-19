@@ -1,7 +1,7 @@
 /*navbars*/
 .navbar{
  list-style:unset;
- width: 100%;
+ width: auto;
 }
 .navbar-link{
   font-size: 1em;
@@ -16,7 +16,7 @@
   display:block;
 }
 .navbar-list{
-  li {display: inline-block;  padding-top: 10px;
+  li {display: block;  padding-top: 10px;
     padding-bottom: 10px;}
   li ul {display: none;}
 }
