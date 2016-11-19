@@ -1,5 +1,6 @@
 @import "compass/reset";
 @import "partials/_normalize.scss";
+@import "partials/_effects.scss";
 @import "partials/color-palette/_blue-grey.scss";
 @import "partials/_fonts.scss";
 @import "partials/_containers.scss";
@@ -42,6 +43,5 @@ html, body{
 }
 
 .menu{
-  position: absolute;
-  display: fixed;
+  position: fixed;
 }
