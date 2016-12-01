@@ -1,7 +1,7 @@
 /*buttons*/
 .button{
   text-transform: uppercase;
-  @extend .padding, .shadows;
+  @extend .pad, .shadows;
 }
   /*button default*/
   .button-default{

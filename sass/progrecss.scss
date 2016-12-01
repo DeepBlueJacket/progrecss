@@ -3,7 +3,6 @@
 @import "partials/_effects.scss";
 @import "partials/color-palette/_blue-grey.scss";
 @import "partials/_fonts.scss";
-@import "partials/_containers.scss";
 @import "partials/_grid.scss";
 @import "partials/_navbar.scss";
 @import "partials/_cards.scss";
@@ -42,18 +41,15 @@ html, body{
 
 #grid .row div{
   background-color: $color-1;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .menu{
   position: fixed;
 }
 
-.code{
-  min-width: 100%;
-  width: auto;
-  overflow: hidden;
-}
 
-.code:focus{
-  overflow: scroll;
+pre {
+  max-width: 100%;
 }

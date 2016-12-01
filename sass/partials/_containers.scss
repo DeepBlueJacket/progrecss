@@ -1,6 +1,7 @@
 /*containers*/
 .container{
-width:90%;
+width:80%;
+max-width: 800px;
 }
 
 .container-fluid{
@@ -9,6 +10,7 @@ width: 100%;
   /*box-sizing*/
   .container, .container-fluid{
     box-sizing: border-box;
+    margin: 0;
   }
   /*padding*/
   .container{
